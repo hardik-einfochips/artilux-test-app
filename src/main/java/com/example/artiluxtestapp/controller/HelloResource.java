@@ -17,7 +17,7 @@ public class HelloResource {
 	
 	@GetMapping("/message")
 	public String firstPage() {
-		return "App deployed successfully on Azure !";
+		return "Application deployed successfully on Azure Platform !";
 	}
 	
 }
